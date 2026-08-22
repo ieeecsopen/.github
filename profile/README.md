@@ -8,11 +8,14 @@ build the same things from scratch.
 
 ## Projects
 
-<!-- Add repos here as they land. Keep the one-liners honest about maturity. -->
-
 | Project | What it is | Status |
 | --- | --- | --- |
-| _(coming soon)_ | | |
+| **[nexus-kit](https://github.com/ieeecsopen/nexus-ui)** | Animated React component library — 60+ components, ESM/CJS/types | Usable |
+| **[Mira](https://github.com/ieeecsopen/Mira-chatbot)** | AI assistant with native **Sinhala** support (Gemini + Groq) | Active |
+| **[CollabNote](https://github.com/ieeecsopen/collabnote)** | Real-time collaborative workspace built on Yjs CRDTs | Active |
+| **[Seran Browser](https://github.com/ieeecsopen/serendib-browser)** | Privacy-focused Electron browser with container tabs | Active |
+| **[National Fuel Pass](https://github.com/ieeecsopen/national-fuel-pass)** | QR-based fuel quota platform — civic tech | Private |
+| **[Zappy](https://github.com/ieeecsopen/Zappy)** | Place-discovery UI — complete frontend, needs a data layer | **Good first issue** |
 
 ## Contributing
 
