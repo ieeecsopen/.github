@@ -6,7 +6,7 @@
 
 Report privately via GitHub's
 [Security Advisories](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability)
-on the affected repository, or email **<TODO: set a security contact email>**.
+on the affected repository, or email **sliit.ieeecs@gmail.com**.
 
 Please include:
 

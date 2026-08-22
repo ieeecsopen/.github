@@ -32,7 +32,7 @@ Examples of unacceptable behaviour:
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behaviour may be
-reported to the chapter's Executive Committee at **<TODO: set a contact email>**.
+reported to the chapter's Executive Committee at **sliit.ieeecs@gmail.com**.
 
 All complaints will be reviewed and investigated promptly and fairly. Community
 leaders are obligated to respect the privacy and security of the reporter.
