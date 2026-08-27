@@ -9,7 +9,7 @@
 ```
 
 ### ⚡ IEEE Computer Society Student Branch Chapter of SLIIT ⚡
-**Building High-Performance Developer Infrastructure, Competitive Judgers & Open-Source AI Tooling**
+**Building High-Performance Developer Infrastructure, UI Toolkits & Open-Source AI Software**
 
 [![NPM Package](https://img.shields.io/npm/v/mcp-cs.svg?color=ffd000&label=npm%20mcp-cs)](https://www.npmjs.com/package/mcp-cs)
 [![Homebrew Tap](https://img.shields.io/badge/Homebrew-ieeecsopen%2Ftap-orange.svg)](https://github.com/ieeecsopen/homebrew-tap)
@@ -27,7 +27,7 @@
 
 ---
 
-## 🌟 Flagship Open-Source Projects
+## 🌟 Featured Open-Source Projects
 
 ### ⚡ 1. [MCS (`mcp-cs`)](https://github.com/ieeecsopen/mcp-cs)
 > **Universal Developer Operations, Diagnostics & AlgoJudge Competitive Execution MCP Server**
@@ -50,34 +50,52 @@ brew install ieeecsopen/tap/mcs
 
 ---
 
-### 🏆 2. [AlgoJudge Platform](https://github.com/IEEEComputerSocietyofSLIIT/hackathon-judge)
-> **Next-Generation Real-Time Competitive Programming Evaluation & Hackathon Arena**
+### 🎨 2. [Nexus UI (`nexus-ui`)](https://github.com/ieeecsopen/nexus-ui)
+> **Animated React Component Library with Built-in Motion**
 
-The official competition and hackathon judging engine built for **SLIITXtreme**:
-- 🚀 **High-Throughput Grading**: Sandboxed execution worker pool supporting C++, Java, Python, and Go.
-- 📐 **Typeset LaTeX & Math**: Clean mathematical problem statement rendering powered by KaTeX and GFM.
-- 🔒 **Integrity Analytics**: Token-level AST plagiarism detection and submission auditing.
-- ⚡ **Lightning Fast**: Sub-15ms cached problem retrieval via Next.js `unstable_cache` ISR tags.
+An accessible, modern React UI library with **60+ animated components** powered by Tailwind CSS and Framer Motion. Ships with full TypeScript definitions, ESM, and CJS support.
 
 ---
 
-### 🚀 3. [SLIITXtreme Hackathon Ecosystem](https://cs.ieeesliit.com)
-> **National 12-Hour Algorithms Championship & Hackathon Series**
+### 🤖 3. [Mira AI Assistant (`Mira-chatbot`)](https://github.com/ieeecsopen/Mira-chatbot)
+> **Multilingual AI Assistant with Native Sinhala Language Support**
 
-The flagship competitive coding and software engineering marathon organized annually by the IEEE Computer Society SLIIT.
+A fast, conversational AI assistant optimized for local languages powered by Google Gemini and Groq LPU inference.
 
 ---
 
-## 📦 Active Open-Source Repositories
+### 📝 4. [CollabNote (`collabnote`)](https://github.com/ieeecsopen/collabnote)
+> **Real-Time Collaborative Workspace with Yjs CRDTs**
+
+A real-time shared workspace featuring conflict-free document editing (CRDTs), visual thinking canvases, decision logs, and team knowledge maps.
+
+---
+
+### 🌐 5. [Seran Browser (`serendib-browser`)](https://github.com/ieeecsopen/serendib-browser)
+> **Privacy-Focused Electron Browser with Container Workspaces**
+
+An extensible desktop browser featuring isolated container tabs, developer workspaces, and an integrated AI sidebar.
+
+---
+
+### 📍 6. [Zappy (`Zappy`)](https://github.com/ieeecsopen/Zappy)
+> **Local Place-Discovery & Exploration Interface**
+
+A sleek, responsive discovery frontend for exploring local hotels, restaurants, and cafés with intuitive category filters.
+
+---
+
+## 📦 Public Repositories Directory
 
 | Repository | Description | Tech Stack | Status |
 | :--- | :--- | :--- | :--- |
 | **[`mcp-cs`](https://github.com/ieeecsopen/mcp-cs)** | MCS Model Context Protocol Server & Visual Console | TypeScript, MCP SDK, WASM | **v2.2.0 Active** |
 | **[`homebrew-tap`](https://github.com/ieeecsopen/homebrew-tap)** | Official Homebrew tap for IEEE CS SLIIT developer tools | Ruby, Homebrew | **Active** |
-| **[`nexus-kit`](https://github.com/ieeecsopen/nexus-ui)** | Animated React UI component library (60+ components) | React, Tailwind, Framer | Active |
-| **[`Mira`](https://github.com/ieeecsopen/Mira-chatbot)** | Multilingual AI assistant with native Sinhala support | Gemini, Groq, Fastify | Active |
-| **[`CollabNote`](https://github.com/ieeecsopen/collabnote)** | Real-time collaborative workspace with CRDTs | Yjs, WebSockets, Next.js | Active |
-| **[`Seran Browser`](https://github.com/ieeecsopen/serendib-browser)** | Privacy-focused Electron browser with isolated containers | Electron, Chromium | Active |
+| **[`nexus-ui`](https://github.com/ieeecsopen/nexus-ui)** | Animated React UI component library (60+ components) | React, Tailwind, Framer | Active |
+| **[`Mira-chatbot`](https://github.com/ieeecsopen/Mira-chatbot)** | Multilingual AI assistant with native Sinhala support | Gemini, Groq, Fastify | Active |
+| **[`collabnote`](https://github.com/ieeecsopen/collabnote)** | Real-time collaborative workspace with CRDTs | Yjs, WebSockets, Next.js | Active |
+| **[`serendib-browser`](https://github.com/ieeecsopen/serendib-browser)** | Privacy-focused Electron browser with isolated containers | Electron, Chromium | Active |
+| **[`Zappy`](https://github.com/ieeecsopen/Zappy)** | Place-discovery UI for cafés, restaurants & stays | React, Tailwind | **Good First Issue** |
 
 ---
 
