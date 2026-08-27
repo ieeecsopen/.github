@@ -1,5 +1,10 @@
 <div align="center">
 
+<a href="https://cs.ieeesliit.com" target="_blank">
+  <img src="https://cs.ieeesliit.com/static/media/CS%20Logo.39417911b30c0d0f623e.png" alt="IEEE Computer Society SLIIT" width="300px" />
+</a>
+
+
 ```
   ___ _____ _____ _____    ____ ____     ___  ____  _____ _   _ 
  |_ _| ____| ____| ____|  / ___/ ___|   / _ \|  _ \| ____| \ | |
@@ -117,5 +122,10 @@ We welcome contributions from university students, IEEE members, and engineers w
 - 💬 **Contact**: `ieee.cs@sliit.lk`
 
 <div align="center">
+
+<a href="https://cs.ieeesliit.com" target="_blank">
+  <img src="https://cs.ieeesliit.com/static/media/CS%20Logo.39417911b30c0d0f623e.png" alt="IEEE Computer Society SLIIT" width="300px" />
+</a>
+
   <sub>Built with ❤️ by the <b>IEEE Computer Society Student Branch Chapter of SLIIT</b>.</sub>
 </div>
