@@ -17,6 +17,7 @@
 **Building High-Performance Developer Infrastructure, UI Toolkits & Open-Source AI Software**
 
 [![NPM Package](https://img.shields.io/npm/v/mcp-cs.svg?color=ffd000&label=npm%20mcp-cs)](https://www.npmjs.com/package/mcp-cs)
+[![NOVA CI](https://github.com/ieeecsopen/NOVA/actions/workflows/ci.yml/badge.svg)](https://github.com/ieeecsopen/NOVA/actions/workflows/ci.yml)
 [![Homebrew Tap](https://img.shields.io/badge/Homebrew-ieeecsopen%2Ftap-orange.svg)](https://github.com/ieeecsopen/homebrew-tap)
 [![MCP Protocol](https://img.shields.io/badge/protocol-Model%20Context%20Protocol-black)](https://modelcontextprotocol.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -55,35 +56,52 @@ brew install ieeecsopen/tap/mcs
 
 ---
 
-### 🎨 2. [Nexus UI (`nexus-ui`)](https://github.com/ieeecsopen/nexus-ui)
+### 🧬 2. [NOVA (`NOVA`)](https://github.com/ieeecsopen/NOVA)
+> **Constraint-Native Programming Language — Capability Security Meets Effect Systems**
+
+A research-preview language where a function's real-world authority (`Runtime`, `Clock`, `Filesystem`, `Network`) is an unforgeable token passed explicitly, and its effects are checked as part of its type signature — so a closure can't silently smuggle a captured capability past a caller expecting a pure function.
+
+```bash
+git clone https://github.com/ieeecsopen/NOVA.git && cd NOVA
+./tools/check-all.sh
+```
+
+- 🔒 **Object capabilities**: no ambient authority — no `import` ever grants power on its own.
+- 📐 **Row-typed effects**: declared effects are checked for equality against the inferred ones, not just subsumption.
+- 🧪 **49-case conformance suite**: the frontend checker and reference interpreter are tested end to end, including deliberate "attack" programs.
+- ⚙️ **Native C backend** for a first-order subset, falling back to the reference interpreter for the rest — `nova build` never emits a binary it can't compile.
+
+---
+
+### 🎨 3. [Nexus UI (`nexus-ui`)](https://github.com/ieeecsopen/nexus-ui)
 > **Animated React Component Library with Built-in Motion**
 
 An accessible, modern React UI library with **60+ animated components** powered by Tailwind CSS and Framer Motion. Ships with full TypeScript definitions, ESM, and CJS support.
 
 ---
 
-### 🤖 3. [Mira AI Assistant (`Mira-chatbot`)](https://github.com/ieeecsopen/Mira-chatbot)
+### 🤖 4. [Mira AI Assistant (`Mira-chatbot`)](https://github.com/ieeecsopen/Mira-chatbot)
 > **Multilingual AI Assistant with Native Sinhala Language Support**
 
 A fast, conversational AI assistant optimized for local languages powered by Google Gemini and Groq LPU inference.
 
 ---
 
-### 📝 4. [CollabNote (`collabnote`)](https://github.com/ieeecsopen/collabnote)
+### 📝 5. [CollabNote (`collabnote`)](https://github.com/ieeecsopen/collabnote)
 > **Real-Time Collaborative Workspace with Yjs CRDTs**
 
 A real-time shared workspace featuring conflict-free document editing (CRDTs), visual thinking canvases, decision logs, and team knowledge maps.
 
 ---
 
-### 🌐 5. [Seran Browser (`serendib-browser`)](https://github.com/ieeecsopen/serendib-browser)
+### 🌐 6. [Seran Browser (`serendib-browser`)](https://github.com/ieeecsopen/serendib-browser)
 > **Privacy-Focused Electron Browser with Container Workspaces**
 
 An extensible desktop browser featuring isolated container tabs, developer workspaces, and an integrated AI sidebar.
 
 ---
 
-### 📍 6. [Zappy (`Zappy`)](https://github.com/ieeecsopen/Zappy)
+### 📍 7. [Zappy (`Zappy`)](https://github.com/ieeecsopen/Zappy)
 > **Local Place-Discovery & Exploration Interface**
 
 A sleek, responsive discovery frontend for exploring local hotels, restaurants, and cafés with intuitive category filters.
@@ -95,6 +113,7 @@ A sleek, responsive discovery frontend for exploring local hotels, restaurants, 
 | Repository | Description | Tech Stack | Status |
 | :--- | :--- | :--- | :--- |
 | **[`mcp-cs`](https://github.com/ieeecsopen/mcp-cs)** | MCS Model Context Protocol Server & Visual Console | TypeScript, MCP SDK, WASM | **v2.2.0 Active** |
+| **[`NOVA`](https://github.com/ieeecsopen/NOVA)** | Constraint-native language: capability security + effect-typed rows | Python, C | **0.2 Research Preview** |
 | **[`homebrew-tap`](https://github.com/ieeecsopen/homebrew-tap)** | Official Homebrew tap for IEEE CS SLIIT developer tools | Ruby, Homebrew | **Active** |
 | **[`nexus-ui`](https://github.com/ieeecsopen/nexus-ui)** | Animated React UI component library (60+ components) | React, Tailwind, Framer | Active |
 | **[`Mira-chatbot`](https://github.com/ieeecsopen/Mira-chatbot)** | Multilingual AI assistant with native Sinhala support | Gemini, Groq, Fastify | Active |
